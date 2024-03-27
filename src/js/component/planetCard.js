@@ -7,6 +7,7 @@ export const PlanetCard = (props) => (
                 onError={(e) => {
                     e.target.src = 'https://starwars-visualguide.com/assets/img/placeholder.jpg'
                 }} className="card-img-top" alt="..."/>
+                <div className="cards-row">
 
     <div className="card-body">
   <h5 className="card-title">{props.planet?.name}</h5>
@@ -22,10 +23,14 @@ export const PlanetCard = (props) => (
 
 
 
+<button className="card-button">
 
-
-    <a href="#" className="btn btn-primary">Go somewhere</a>
+    <a href="#" className="btn btn-primary">Use The Force</a>
+    </button>
   </div>
+  
+  </div>
+  
 </div>
     </div>
 );

@@ -1,0 +1,43 @@
+div {
+    color: #FFEF57;
+}
+.profile-top {
+    display: flex;
+    background-color: #212529;
+    border-radius: 25px;
+    width: 90%;
+    margin: auto;
+    padding-top: 1rem;
+}
+.profile-image {
+    border-right: 3px solid #FFEF57;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+.profile-name {
+    margin-left: 1.5%;
+}
+.bio {
+    margin: 1%;
+}
+.col-3 {
+    background-color: #212529;
+    border-right: 2px solid #FFEF57;
+    margin:auto;
+}
+h6 {
+    margin-top: 3%;
+    padding-top: 3%;
+    color: white;
+}
+.stats {
+    display: flex;
+    margin: auto;
+    margin-top: 20px;
+    /* width: 90%; */
+    border-radius: 15px;
+    padding-bottom: 5rem;
+}
+.profile-data {
+    padding-bottom: 5rem;
+}

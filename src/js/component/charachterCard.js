@@ -7,7 +7,8 @@ export const CharacterCard = (props) => (
                 onError={(e) => {
                     e.target.src = 'https://starwars-visualguide.com/assets/img/placeholder.jpg'
                 }} className="card-img-top" alt="..."/>
-  <div className="card-body">
+                <div className="cards-row">
+  <div className="card-body ">
     <h5 className="card-title">{props.character?.name}</h5>
     <p className="card-text">Height: {props.character?.height}</p>
     <p className="card-text">Mass: {props.character?.mass}</p>
@@ -23,7 +24,11 @@ export const CharacterCard = (props) => (
 
 
 
-    <a href="#" className="btn btn-primary">Go somewhere</a>
+    <button className="card-button">
+
+<a href="#" className="btn btn-primary">Use The Force</a>
+</button>
+  </div>
   </div>
 </div>
     </div>

@@ -9,14 +9,14 @@ export const Home = () => {
 	
 	console.log(store) 
 	return(
-	<div className="text-center mt-5 container">
+	<div className="text-center mt-5 container ">
 		<h2>Characters</h2>
 		<div 
 		className="characterDiv" 		
 		
 		>
 		<div 
-		className="d-flex overflow-scroll">
+		className="d-flex overflow-scroll ">
 		{store.characters.map((item,index)=>{
 			return(
 				<CharacterCard character={item} id={index}/>
